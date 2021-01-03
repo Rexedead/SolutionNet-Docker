@@ -1,5 +1,7 @@
 # SolutionNet (spacechem.net)
 
+Fork from: [Deimos/SolutionNet](https://github.com/Deimos/SolutionNet)
+
 This is the source code for [SolutionNet](http://spacechem.net), a site for sharing and comparing solutions for the game [SpaceChem](http://www.spacechemthegame.com).
 
 ## Disclaimers/Warnings
@@ -37,11 +39,13 @@ Edit spacechem.cfg.example as follows:
   - **SRV_NAME** - host header of the site for nginx to use
   - **GA_ID** - Google Analytics tracking id
 
-```
-Then:
-docker-compose up -d
 
-# Container doesnt include:
+Then:
+```
+docker-compose up -d
+```
+
+# Container doesnt include
 
 ## Configure daily statistics update
 echo "0 0 * * * python /home/spacechem/SolutionNet/update_scores.py" > cronline
