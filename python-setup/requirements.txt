@@ -1,0 +1,13 @@
+boto
+botocore
+Flask
+Flask-SQLAlchemy 
+Flask-Uploads
+Flask-WTF
+bcrypt 
+SQLAlchemy
+WTForms
+psycopg2
+uwsgi
+email_validator
+werkzeug==0.16.1
